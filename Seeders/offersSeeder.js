@@ -1,5 +1,6 @@
 db.offers.insertMany([
     {
+        _id: ObjectId("64542d58d016389822eaca68"),
         title: "Junior .NET Developer",
         companyName: "Microsoft",
         companyId: ObjectId('64524ed062f914089ff73838'),
@@ -39,6 +40,7 @@ db.offers.insertMany([
         ]
     },
     {
+        _id: ObjectId("64542d58d016389822eaca69"),
         title: "Junior .NET Developer",
         companyName: "Acme Inc.",
         companyId: ObjectId('64524ed062f914089ff73847'),
@@ -72,6 +74,7 @@ db.offers.insertMany([
         ]
     },
     {
+        _id: ObjectId("64542d58d016389822eaca6a"),
         title: "Junior Java Developer",
         companyName: "AwesomeTech",
         companyId: ObjectId('64524ed062f914089ff73848'),
@@ -105,6 +108,7 @@ db.offers.insertMany([
         ]
     },
     {
+        _id: ObjectId("64542d58d016389822eaca6b"),
         title: "Junior Front-End Developer",
         companyName: "WebSolutions",
         companyId: ObjectId('64524ed062f914089ff73849'),
@@ -138,6 +142,7 @@ db.offers.insertMany([
         ]
     },
     {
+        _id: ObjectId("64542d58d016389822eaca6c"),
         title: "Senior Angular Developer",
         companyName: "CodeMasters",
         companyId: ObjectId('64524ed062f914089ff7384a'),
@@ -174,6 +179,7 @@ db.offers.insertMany([
         ]
     },
     {
+        _id: ObjectId("64542d58d016389822eaca6d"),
         title: "Mid-Level DevOps Engineer",
         companyName: "TechWorks",
         companyId: ObjectId('64524ed062f914089ff7384b'),
@@ -207,6 +213,7 @@ db.offers.insertMany([
         ]
     },
     {
+        _id: ObjectId("64542d58d016389822eaca6e"),
         title: "Junior QA Tester",
         companyName: "QualityFirst",
         companyId: ObjectId('645251b262f914089ff7384d'),
@@ -240,6 +247,7 @@ db.offers.insertMany([
         ]
     },
     {
+        _id: ObjectId("64542d58d016389822eaca6f"),
         title: "Senior QA Tester",
         companyName: "QualityFirst",
         companyId: ObjectId('645251b262f914089ff7384d'),
