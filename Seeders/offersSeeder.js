@@ -1,6 +1,11 @@
 db.offers.insertMany([
     {
         _id: ObjectId("64542d58d016389822eaca68"),
+        createdAt: (() => {
+            var date = new Date();
+            date.setDate(date.getDate() - 14);
+            return date;
+        })(),
         title: "Junior .NET Developer",
         companyName: "Microsoft",
         companyId: ObjectId('64524ed062f914089ff73838'),
@@ -41,6 +46,11 @@ db.offers.insertMany([
     },
     {
         _id: ObjectId("64542d58d016389822eaca69"),
+        createdAt: (() => {
+            var date = new Date();
+            date.setDate(date.getDate() - 10);
+            return date;
+        })(),
         title: "Junior .NET Developer",
         companyName: "Acme Inc.",
         companyId: ObjectId('64524ed062f914089ff73847'),
@@ -75,6 +85,11 @@ db.offers.insertMany([
     },
     {
         _id: ObjectId("64542d58d016389822eaca6a"),
+        createdAt: (() => {
+            var date = new Date();
+            date.setDate(date.getDate() - 24);
+            return date;
+        })(),
         title: "Junior Java Developer",
         companyName: "AwesomeTech",
         companyId: ObjectId('64524ed062f914089ff73848'),
@@ -109,6 +124,11 @@ db.offers.insertMany([
     },
     {
         _id: ObjectId("64542d58d016389822eaca6b"),
+        createdAt: (() => {
+            var date = new Date();
+            date.setDate(date.getDate() - 3);
+            return date;
+        })(),
         title: "Junior Front-End Developer",
         companyName: "WebSolutions",
         companyId: ObjectId('64524ed062f914089ff73849'),
@@ -143,6 +163,11 @@ db.offers.insertMany([
     },
     {
         _id: ObjectId("64542d58d016389822eaca6c"),
+        createdAt: (() => {
+            var date = new Date();
+            date.setDate(date.getDate() - 5);
+            return date;
+        })(),
         title: "Senior Angular Developer",
         companyName: "CodeMasters",
         companyId: ObjectId('64524ed062f914089ff7384a'),
@@ -180,6 +205,11 @@ db.offers.insertMany([
     },
     {
         _id: ObjectId("64542d58d016389822eaca6d"),
+        createdAt: (() => {
+            var date = new Date();
+            date.setDate(date.getDate() - 1);
+            return date;
+        })(),
         title: "Mid-Level DevOps Engineer",
         companyName: "TechWorks",
         companyId: ObjectId('64524ed062f914089ff7384b'),
@@ -214,6 +244,7 @@ db.offers.insertMany([
     },
     {
         _id: ObjectId("64542d58d016389822eaca6e"),
+        createdAt: new Date(),
         title: "Junior QA Tester",
         companyName: "QualityFirst",
         companyId: ObjectId('645251b262f914089ff7384d'),
@@ -248,6 +279,11 @@ db.offers.insertMany([
     },
     {
         _id: ObjectId("64542d58d016389822eaca6f"),
+        createdAt: (() => {
+            var date = new Date();
+            date.setDate(date.getDate() - 8);
+            return date;
+        })(),
         title: "Senior QA Tester",
         companyName: "QualityFirst",
         companyId: ObjectId('645251b262f914089ff7384d'),
