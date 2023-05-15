@@ -19,7 +19,7 @@ db.runCommand({
                 about: {
                     bsonType: "string"
                 },
-                data: {
+                aboutData: {
                     bsonType: "object",
                     required: ["established", "offices", "industry", "employees"],
                     properties: {

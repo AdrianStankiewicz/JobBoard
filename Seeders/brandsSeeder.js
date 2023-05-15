@@ -5,7 +5,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/microsoft/mic_1.png",
         about: "Every company has a mission. What's ours? To empower every person and every organization to achieve more. We believe technology can and should be a force for good and that meaningful innovation contributes to a brighter world in the future and today. Our culture doesn’t just encourage curiosity; it embraces it. Each day we make progress together by showing up as our authentic selves. We show up with a learn-it-all mentality. We show up cheering on others, knowing their success doesn't diminish our own. We show up every day open to learning our own biases, changing our behavior, and inviting in differences. When we show up, we achieve more together.",
         
-        data: {
+        aboutData: {
             established: 1975,
             offices: ["Warsaw, Poland", "Redmond, United States"],
             industry: "Technology",
@@ -29,7 +29,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/apple/apple_1.png",
         about: "Apple is a place where people with passion can do their best work. With innovative technologies and unique ideas, we strive to make a difference in the world through our products. Our culture is built on collaboration, diversity, and a shared commitment to excellence. We believe that technology should be accessible to everyone, and that our products should enhance the lives of those who use them. Our goal is to continue pushing the boundaries of what's possible and to create products that change the world.",
         
-        data: {
+        aboutData: {
             established: 1976,
             offices: ["Cupertino, United States", "London, United Kingdom"],
             industry: "Technology",
@@ -54,7 +54,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/google/google_1.png",
         about: "Google's mission is to organize the world's information and make it universally accessible and useful. We believe that through technology, we can improve people's lives and the world. Our culture is built on collaboration, creativity, and a passion for innovation. We value diversity, and strive to create an inclusive environment for all employees. We are constantly pushing the boundaries of what's possible, and we're always looking for new and innovative ways to solve complex problems.",
         
-        data: {
+        aboutData: {
             established: 1998,
             offices: ["Mountain View, United States", "London, United Kingdom", "Dublin, Ireland"],
             industry: "Technology",
@@ -78,7 +78,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/ibm/ibm_1.png",
         about: "IBM's mission is to apply technology to create value for our clients and the world. We believe that technology has the power to change lives and make the world a better place. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive. With cutting-edge technology and innovative ideas, we are constantly pushing the boundaries of what's possible and making a difference in the world.",
         
-        data: {
+        aboutData: {
             established: 1911,
             offices: ["Armonk, United States", "London, United Kingdom", "Paris, France"],
             industry: "Technology",
@@ -103,7 +103,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/oracle/oracle_1.png",
         about: "Oracle's mission is to provide the world's best information technology and to help our customers achieve their goals. We believe that technology has the power to transform the way we live and work, and we're committed to making a positive impact on the world. Our culture is built on collaboration, innovation, and a passion for excellence. We value diversity and strive to create an inclusive environment where all employees can thrive. With cutting-edge technology and innovative ideas, we are constantly pushing the boundaries of what's possible and making a difference in the world.",
         
-        data: {
+        aboutData: {
             established: 1977,
             offices: ["Redwood City, United States", "London, United Kingdom", "Sydney, Australia"],
             industry: "Technology",
@@ -127,7 +127,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/cisco/cisco_1.png",
         about: "Cisco's mission is to shape the future of the internet by creating unprecedented value and opportunity for our customers, employees, investors, and ecosystem partners. We believe that technology has the power to transform the world and that we have a unique opportunity to make a difference. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive. With cutting-edge technology and innovative ideas, we are constantly pushing the boundaries of what's possible and making a difference in the world.",
         
-        data: {
+        aboutData: {
             established: 1984,
             offices: ["San Jose, United States", "London, United Kingdom", "Singapore"],
             industry: "Technology",
@@ -151,7 +151,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/hp/hp_1.png",
         about: "HP's mission is to create technology that makes life better for everyone, everywhere. We believe that technology has the power to transform the world and that we have a unique opportunity to make a difference. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive. With cutting-edge technology and innovative ideas, we are constantly pushing the boundaries of what's possible and making a difference in the world.",
         
-        data: {
+        aboutData: {
             established: 1939,
             offices: ["Palo Alto, United States", "London, United Kingdom", "Sydney, Australia"],
             industry: "Technology",
@@ -176,7 +176,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/dell/dell_1.png",
         about: "Dell Technologies is driven by a single purpose: to drive human progress through technology. We believe that technology has the power to transform the world and make a positive impact on people's lives. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive. With cutting-edge technology and innovative ideas, we are constantly pushing the boundaries of what's possible and making a difference in the world.",
         
-        data: {
+        aboutData: {
             established: 1984,
             offices: ["Round Rock, United States", "London, United Kingdom", "Bangalore, India"],
             industry: "Technology",
@@ -200,7 +200,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/intel/intel_1.png",
         about: "Intel's mission is to create world-changing technology that enriches the lives of every person on earth. We believe that technology has the power to transform the world and make a positive impact on people's lives. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive. With cutting-edge technology and innovative ideas, we are constantly pushing the boundaries of what's possible and making a difference in the world.",
         
-        data: {
+        aboutData: {
             established: 1968,
             offices: ["Santa Clara, United States", "Shanghai, China", "Munich, Germany"],
             industry: "Technology",
@@ -225,7 +225,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/accenture/accenture_1.png",
         about: "Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology, and operations. Our mission is to help our clients achieve their goals and create value for their stakeholders. We believe that technology has the power to transform the world and make a positive impact on people's lives. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive.",
         
-        data: {
+        aboutData: {
             established: 1989,
             offices: ["Dublin, Ireland", "New York, United States", "Sydney, Australia"],
             industry: "Consulting and Technology",
@@ -249,7 +249,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/tcs/tcs_1.png",
         about: "Tata Consultancy Services is a leading provider of consulting, technology, and digital solutions. Our mission is to help our clients transform and thrive in a changing world. We believe that technology has the power to transform the world and make a positive impact on people's lives. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive.",
         
-        data: {
+        aboutData: {
             established: 1968,
             offices: ["Mumbai, India", "New York, United States", "London, United Kingdom"],
             industry: "Consulting and Technology",
@@ -274,7 +274,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/cdprojekt/cdprojekt_1.png",
         about: "CD Projekt is a video game developer and publisher based in Poland. Our mission is to create video games that offer rich, immersive experiences and push the boundaries of what's possible in the medium. We believe that video games have the power to entertain, educate, and inspire, and we strive to create games that leave a lasting impact on our players. Our culture is built on collaboration, creativity, and a commitment to excellence.",
         
-        data: {
+        aboutData: {
             established: 1994,
             offices: ["Warsaw, Poland"],
             industry: "Video Games",
@@ -298,7 +298,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/asseco/asseco_1.png",
         about: "Asseco Poland is a leading provider of software and IT services in Poland and the surrounding region. Our mission is to help our clients achieve their goals through the use of technology. We believe that technology has the power to transform the world and make a positive impact on people's lives. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive.",
         
-        data: {
+        aboutData: {
             established: 1991,
             offices: ["Gdynia, Poland"],
             industry: "Software and IT Services",
@@ -323,7 +323,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/comarch/comarch_1.png",
         about: "Comarch is a leading provider of software and IT services in Poland and the surrounding region. Our mission is to help our clients achieve their goals through the use of technology. We believe that technology has the power to transform the world and make a positive impact on people's lives. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive.",
         
-        data: {
+        aboutData: {
             established: 1993,
             offices: ["Krakow, Poland", "Warsaw, Poland"],
             industry: "Software and IT Services",
@@ -347,7 +347,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/agnitio/agnitio_1.png",
         about: "Agnitio is a software and IT services company based in Poland. Our mission is to help our clients achieve their goals through the use of technology. We believe that technology has the power to transform the world and make a positive impact on people's lives. Our culture is built on collaboration, innovation, and a commitment to excellence. We value diversity and strive to create an inclusive environment where all employees can thrive.",
         
-        data: {
+        aboutData: {
             established: 2014,
             offices: ["Krakow, Poland"],
             industry: "Software and IT Services",
@@ -370,7 +370,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/acme_inc/acme_1.png",
         about: "Acme Inc. is a leading technology company that provides innovative solutions to businesses worldwide. Our mission is to empower our clients to achieve more with technology and transform the way they work. With a focus on quality, reliability, and customer satisfaction, we strive to deliver the best products and services in the industry. Our team of experts is dedicated to staying ahead of the curve and continuously pushing the boundaries of what is possible with technology.",
         
-        data: {
+        aboutData: {
             established: 2000,
             offices: ["New York, United States", "London, United Kingdom"],
             industry: "Technology",
@@ -395,7 +395,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/awesometech/awesome_1.png",
         about: "AwesomeTech is a cutting-edge technology company that provides innovative and forward-thinking solutions to businesses around the world. Our team of experts is dedicated to staying ahead of the curve and continuously pushing the boundaries of what is possible with technology. With a focus on quality, reliability, and customer satisfaction, we strive to deliver the best products and services in the industry.",
         
-        data: {
+        aboutData: {
             established: 2005,
             offices: ["San Francisco, United States", "Berlin, Germany"],
             industry: "Technology",
@@ -419,7 +419,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/websolutions/web_1.png",
         about: "WebSolutions is a leading provider of cutting-edge web solutions for businesses around the world. Our team of experts is dedicated to delivering innovative and effective solutions that help our clients succeed online. With a focus on quality, reliability, and customer satisfaction, we strive to provide the best products and services in the industry.",
         
-        data: {
+        aboutData: {
             established: 2010,
             offices: ["London, United Kingdom", "Barcelona, Spain"],
             industry: "Technology",
@@ -444,7 +444,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/codemasters/code_1.png",
         about: "CodeMasters is a leading provider of software solutions for businesses around the world. Our team of experts is dedicated to delivering innovative and effective solutions that help our clients succeed in the digital age. With a focus on quality, reliability, and customer satisfaction, we strive to provide the best products and services in the industry.",
         
-        data: {
+        aboutData: {
             established: 2008,
             offices: ["Paris, France", "Rome, Italy"],
             industry: "Technology",
@@ -468,7 +468,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/techworks/tech_1.png",
         about: "Techworks is a leading provider of cutting-edge technology solutions for businesses around the world. Our team of experts is dedicated to delivering innovative and effective solutions that help our clients succeed in the digital age. With a focus on quality, reliability, and customer satisfaction, we strive to provide the best products and services in the industry.",
         
-        data: {
+        aboutData: {
             established: 2012,
             offices: ["New York, United States", "Sydney, Australia"],
             industry: "Technology",
@@ -493,7 +493,7 @@ db.brands.insertMany([
         logo: "https://jobboard.pl/brands/logos/qualityfirst/quality_1.png",
         about: "QualityFirst is a leading provider of technology solutions that prioritize quality and reliability. Our team of experts is dedicated to delivering effective and innovative solutions that help our clients succeed in the digital age. With a focus on customer satisfaction and a commitment to delivering the best products and services in the industry, we strive to be the first choice for businesses in need of technology solutions.",
         
-        data: {
+        aboutData: {
             established: 2011,
             offices: ["Toronto, Canada", "Hong Kong, China"],
             industry: "Technology",
